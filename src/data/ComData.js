@@ -1,4 +1,4 @@
-const SliderData =[
+const ComData =[
 
   {
     _id:'1',
@@ -36,3 +36,5 @@ const SliderData =[
 
   },
 ]
+
+export default ComData;

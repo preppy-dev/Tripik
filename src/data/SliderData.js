@@ -6,21 +6,21 @@ import ImageThree from '../assets/img/bghome3.png'
 const SliderData =[
 
 {
-  title:'Business Inteligent',
+  title:'Business Intelligence',
   path:'/homes',
   label:'View Home',
   image:ImageOne,
   alt:'Tripik conseils'
 },
 {
-  title:'Business Inteligent',
+  title:'Business Intelligence',
   path:'/homes',
   label:'View Home',
   image:ImageTwo,
   alt:'Tripik conseils'
 },
 {
-  title:'Business Inteligent',
+  title:'Business Intelligence',
   path:'/homes',
   label:'View Home',
   image:ImageThree,

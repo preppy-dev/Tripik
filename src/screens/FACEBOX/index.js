@@ -10,12 +10,11 @@ import './style.css';
 const Facebox = ()=>{
   return (
     <>
-      <GlobalStyle/>
+      <div className="homehead">
       <Header/>
-   
+      </div>
       <Hero slides={SliderData}/>
       <div className="socialface">
-
       </div>
    </> 
   )

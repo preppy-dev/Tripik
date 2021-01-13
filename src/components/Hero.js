@@ -1,4 +1,5 @@
 import React,{useState,useRef, useEffect} from 'react'
+import { Link } from 'react-router-dom';
 import styled, { css } from 'styled-components/macro'
 
 const HeroSection = styled.section`
@@ -67,11 +68,22 @@ max-width:1600px;
 width: calc(100%-100px);
 color:#fff;
 h1{
-  font-size: clamp(4rem, 8vw, 2rem);
+  font-size: clamp(7.6rem, 10vw, 4rem);
   font-weight:400;
-  text-transform:uppercase;
   text-align: left;
   margin-left:5rem;
+  word-break: keep-all;
+  width:69.9vh;
+  }
+  @media only screen and (max-width: 768px) {
+    h1{
+      font-size: clamp(5rem, 8vw, 42rem);
+      font-weight:400;
+      text-align: left;
+      margin-left:2rem;
+      word-break: keep-all;
+      width:69.9vh;
+      }
   }
   p{
     margin-bottom:1.2rem;
@@ -113,12 +125,17 @@ const NextArrow = styled()`
 ${arrowButton}
 `; */
 
+const SocialsAction = styled.div `
+display:flex;
+
+`;
+
 function Hero({slides}) {
  const [current, setCurrent] = useState(0);
  const length = slides.length;
  const timeout = useRef(null);
 
- /* useEffect(() => {
+ useEffect(() => {
   const nextSlide = ()=>{
     setCurrent(current=>(current === length -1 ? 0 : current +1 ))
   };
@@ -129,7 +146,7 @@ function Hero({slides}) {
       clearTimeout(timeout.current)
     }
   }
- }, [current,length]) */
+ }, [current,length])
 
  const nextSlide = ()=>{
   if (timeout.current){
@@ -163,10 +180,24 @@ function Hero({slides}) {
          </HeroContent>
          </HeroSlider>
         )}
-        
+        {/* <SocialsAction>
+           <div>Suivez-nous </div>
+           <div><img src="" alt=""/></div>
+           <div>
+           <Link>
+           <img src="" alt=""/>
+           </Link>
+           <Link>
+           <img src="" alt=""/>
+           </Link>
+           <Link>
+           <img src="" alt=""/>
+           </Link>
+           </div>
+         </SocialsAction> */}
       </HeroSlide>
       ))}
-      
+         
         </HeroWrapper>
       </HeroSection>
     </div>

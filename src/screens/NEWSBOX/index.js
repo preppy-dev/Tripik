@@ -1,14 +1,11 @@
 import React from "react"
+import BlogTemplate from "../../components/BlogTemplate";
 
 const Newsbox =()=>{
 return (
-  <div>
-    <p>News on The Box</p>
-    <div>
-       
-    </div>
-    
-  </div>
+  <>
+    <BlogTemplate title="NEWS BOX"/>
+  </>
 )
 }
 

@@ -1,10 +1,14 @@
 import React from "react"
+import BlogTemplate from "../../components/BlogTemplate";
+
+
 
 const LifeBox =()=>{
 return (
-  <div>
-    <p>Life Box</p>
-  </div>
+  <>
+  <BlogTemplate title="LIFE BOX"/>
+  </>
+  
 )
 }
 

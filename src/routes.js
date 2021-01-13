@@ -9,6 +9,7 @@ import Facebox from './screens/FACEBOX'
 import LearnWithTheBox from './screens/LEARNWITHBOX'
 import LifeBox from './screens/LIFEBOX'
 import Newsbox from './screens/NEWSBOX'
+import SingleCom from './screens/SingleCom'
 
 function Routes() {
   return (
@@ -16,11 +17,12 @@ function Routes() {
       <Switch>
       <Route path="/" exact component={Facebox} />
       <Route path="/about" component={Aboutthebox} />
-      <Route path="/comfthebox" exact component={ComfTheBox} />
-      <Route path="/learnwiththebox" exact component={LearnWithTheBox} />
-      <Route path="/developyourbox" exact component={DevelopYourBox} />
-      <Route path="/newsbox" exact component={Newsbox} />
-      <Route path="/lifebox" exact component={LifeBox} />
+      <Route path="/comofthebox" component={ComfTheBox} />
+      <Route path="/learnwiththebox" component={LearnWithTheBox} />
+      <Route path="/developyourbox" component={DevelopYourBox} />
+      <Route path="/newsbox" component={Newsbox} />
+      <Route path="/lifebox" component={LifeBox} />
+      <Route path="/comsingle" component={SingleCom} />
      </Switch>
     </BrowserRouter>
    
