@@ -1,10 +1,15 @@
 import React from "react"
+import Header from "../../components/Header"
+import GlobalStyle from "../../GlobalStyles";
+import './style.css'
 
 const ComfTheBox =()=>{
 return (
-  <div>
-    <p>Communications</p>
-  </div>
+  <>
+    <GlobalStyle/>
+    <Header primary="true"/>
+  </>
+
 )
 }
 

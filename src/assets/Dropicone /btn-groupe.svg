@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123" height="103" viewBox="0 0 123 103">
+  <defs>
+    <filter id="Retângulo_1173" x="0" y="0" width="123" height="103" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_353" data-name="Grupo 353" transform="translate(-899 -74)">
+    <g transform="matrix(1, 0, 0, 1, 899, 74)" filter="url(#Retângulo_1173)">
+      <rect id="Retângulo_1173-2" data-name="Retângulo 1173" width="105" height="85" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="next" transform="translate(975.831 97.419) rotate(90)">
+      <g id="Grupo_333" data-name="Grupo 333">
+        <path id="Caminho_230" data-name="Caminho 230" d="M50.166,55.5,31.755,41.945a3.548,3.548,0,0,0-3.946,0l-1.672,1.231a1.815,1.815,0,0,0-.814,1.453,1.844,1.844,0,0,0,.814,1.47l10.741,7.925H2.754c-1.539,0-2.754.887-2.754,2.02v1.74c0,1.133,1.216,2.109,2.754,2.109H37l-10.862,7.97a1.684,1.684,0,0,0,0,2.885l1.672,1.227a3.548,3.548,0,0,0,3.946,0L50.166,58.417a1.712,1.712,0,0,0,0-2.916Z" transform="translate(0 -41.346)" fill="#034492"/>
+      </g>
+    </g>
+  </g>
+</svg>
